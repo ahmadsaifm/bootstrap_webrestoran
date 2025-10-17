@@ -1,0 +1,102 @@
+body{
+    background-image: url(../img/header2.jpg);
+    background-size: 100%;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+header h1{
+    font-family: cursive;
+    font-size: 40px;
+}
+
+header i{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+nav{
+    text-align: center;
+    background-color: rgb(219, 253, 124);
+    width: auto;
+}
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    height: 50px;
+    color: green;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    margin: 0px;
+    width: auto;
+}
+
+.main p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main-mid{
+    text-align: center;
+    color: green;
+}
+
+.main li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article.menu{
+    text-align: center;
+}
+
+article.contact{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(219, 253, 124);
+    padding: 5px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: solid;
+    color: black;
+}
+
+footer p{
+    font-family: cursive;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: blue;
+}
